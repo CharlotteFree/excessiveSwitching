@@ -1,0 +1,22 @@
+BGGM: Bayesian Gaussian Graphical Models 
+--- 
+Type: continuous 
+Alternative: exhaustive 
+--- 
+Call:
+select.explore(object = explore(dims, mixed_type = rep(1, ncol(dims))), 
+    alternative = "exhaustive")
+--- 
+Hypotheses: 
+H0: rho = 0
+H1: rho > 0
+H2: rho < 0 
+--- 
+
+ Relation      Post.mean Post.sd.fisher Pr.H0 Pr.H1 Pr.H2
+ Paranoia--OCD  0.590    0.050          0.000 1.000 0.000
+ Paranoia--WSR  0.177    0.050          0.000 1.000 0.000
+ OCD--WSR       0.117    0.050          0.186 0.806 0.008
+ Paranoia--LSR -0.112    0.051          0.283 0.010 0.707
+ OCD--LSR      -0.103    0.051          0.440 0.011 0.549
+ WSR--LSR      -0.118    0.051          0.195 0.008 0.797

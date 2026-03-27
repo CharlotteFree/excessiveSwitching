@@ -1,0 +1,37 @@
+BGGM: Bayesian Gaussian Graphical Models 
+--- 
+Type: continuous 
+Alternative: exhaustive 
+--- 
+Call:
+select.explore(object = explore(dims, mixed_type = rep(1, ncol(dims))), 
+    alternative = "exhaustive")
+--- 
+Hypotheses: 
+H0: rho = 0
+H1: rho > 0
+H2: rho < 0 
+--- 
+
+ Relation             Post.mean Post.sd.fisher Pr.H0 Pr.H1 Pr.H2
+ Paranoia--Anxiety     0.290    0.051          0.000 1.000 0.000
+ Paranoia--Depression  0.143    0.051          0.022 0.976 0.002
+ Anxiety--Depression   0.679    0.051          0.000 1.000 0.000
+ Paranoia--Mu3         0.286    0.051          0.000 1.000 0.000
+ Anxiety--Mu3          0.042    0.050          0.972 0.023 0.006
+ Depression--Mu3      -0.022    0.050          0.983 0.006 0.011
+ Paranoia--Kappa      -0.140    0.050          0.026 0.002 0.972
+ Anxiety--Kappa        0.014    0.050          0.985 0.009 0.006
+ Depression--Kappa    -0.050    0.051          0.963 0.006 0.031
+ Mu3--Kappa            0.699    0.051          0.000 1.000 0.000
+ Paranoia--Omega2     -0.078    0.050          0.859 0.008 0.133
+ Anxiety--Omega2       0.018    0.050          0.984 0.010 0.006
+ Depression--Omega2   -0.080    0.050          0.849 0.009 0.142
+ Mu3--Omega2           0.528    0.051          0.000 1.000 0.000
+ Kappa--Omega2        -0.821    0.052          0.000 0.000 1.000
+ Paranoia--Omega3     -0.180    0.051          0.000 0.000 1.000
+ Anxiety--Omega3       0.040    0.051          0.973 0.021 0.006
+ Depression--Omega3    0.021    0.052          0.982 0.012 0.006
+ Mu3--Omega3          -0.032    0.051          0.978 0.006 0.016
+ Kappa--Omega3        -0.073    0.051          0.895 0.008 0.097
+ Omega2--Omega3        0.282    0.052          0.000 1.000 0.000
