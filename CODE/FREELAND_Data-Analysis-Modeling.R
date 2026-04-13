@@ -1,6 +1,5 @@
 # Excessive switching in OCD and paranoia arises from different deficits in belief-updating
 # Author: Charlotte Freeland, PhD
-# Data Analysis & Statistics
 # Data examined was collected and published in Suthaharan et. al, 2021
 
 # clear environment
@@ -1072,7 +1071,7 @@ omega2_emm %>% as_tibble() %>%
                 width = 0, size = 1,
                 show.legend = T) +
   labs(x = "Paranoia",
-       y = expression(bolditalic(omega)[italic("2")]^italic("0")),
+       y = expression(bolditalic(omega)[italic("2")]),
        color = "OCD") +
   scale_color_manual(
     values = c("low" = "royalblue2", "high" = "chocolate1"),
@@ -1229,7 +1228,7 @@ omega3_emm %>% as_tibble() %>%
                 width = 0, size = 1,
                 show.legend = T) +
   labs(x = "Paranoia",
-       y = expression(bolditalic(omega)[italic("3")]^italic("0")),
+       y = expression(bolditalic(omega)[italic("3")]),
        color = "OCD") +
   scale_color_manual(
     values = c("low" = "royalblue2", "high" = "chocolate1"),
