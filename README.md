@@ -16,11 +16,17 @@ symptoms. We then compared previously reported HGF parameter estimates (Suthahar
 those in participants with low symptom scores and performed network analyses (Bayesian Gaussian graphical modeling). By applying this combination of computational
 methods, we sought to gain insight to latent cognitive mechanisms that underlie, and distinguish, OCD and paranoia. 
 
-The CODE directory contains R scripts data wrangling, modeling, anaylsis and plotting for each of the main and supplementary figures found in the manuscript.
+The BGGM directory contains R scripts for ...
+
+The CODE directory contains R scripts data wrangling, modeling, anaylsis and plotting for each of the main and supplementary figures found in the manuscript. It also contains ...
+
+The Clinical_Assessments directory contains the inventories/scales of self-report symptom scores. These are provided for accessibility and reference.
 
 The DATA directory contains the raw .csv data and accompanying data dictionary. External data can be sourced from references in the manuscript or the github repositiory below.
 
-The Clinical_Assessments directory contains the inventories/scales of self-report symptom scores. These are provided for accessibility.
+The FIGURES directory contains all .png, .jpeg, .svg and Adobe Illustrator files for all figures in main and supplementary test.
+
+The MODEL_DIAGNOSTICS branch contains ...
 
 Questions about code/data? See github repository for Suthaharan et al., 2021: https://github.com/psuthaharan/covid19paranoia
 or contact charlotte.freeland@yale.edu or praveen.suthaharan@yale.edu
