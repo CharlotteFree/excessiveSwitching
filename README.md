@@ -26,7 +26,7 @@ The DATA directory contains the raw .csv data and accompanying data dictionary. 
 
 The FIGURES directory contains all .png, .jpeg, .svg and Adobe Illustrator files for all figures in main and supplementary test.
 
-The MODEL_DIAGNOSTICS branch contains for each model comparison, including Q-Q plots and fitted vs model residual.
+The MODEL_DIAGNOSTICS contains for each model comparison, including Q-Q plots and fitted vs model residual plots. HGF model parameter recovery was computed for all subjects across 10 simulations. This data is a available in a .csv file. Correlations between actual and averaged simulated data using the same model parameters are reported and plotted in a heat map.
 
 Questions about code/data? See github repository for Suthaharan et al., 2021: https://github.com/psuthaharan/covid19paranoia
 or contact charlotte.freeland@yale.edu or praveen.suthaharan@yale.edu
